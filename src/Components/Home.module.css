@@ -1,0 +1,8 @@
+body {
+  background: url("../Assets/bg-alternative.jpg") no-repeat;
+  background-size: cover;
+}
+
+.title {
+  font-size: 4rem;
+}
