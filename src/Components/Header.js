@@ -4,12 +4,6 @@ import { Link, NavLink } from 'react-router-dom';
 import Logo from '../Assets/home-logo.png';
 
 const Header = () => {
-    const mapStateToProps = (state) => {
-        return {
-            router: state.router,
-        }
-    }
-
     return (
         <header className={styles.header}>
             <nav className={`${styles.nav} container`}>
