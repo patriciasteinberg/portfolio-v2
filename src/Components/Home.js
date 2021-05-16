@@ -3,6 +3,8 @@ import React from 'react';
 import LinkedInHome from '../Assets/home-linkedin-btn.png';
 import BehanceHome from '../Assets/home-behance-btn.png';
 import GithubHome from '../Assets/home-github-btn.png';
+import { Link } from 'react-router-dom';
+
 
 const Home = () => {
     return (
@@ -14,7 +16,7 @@ const Home = () => {
                 <a href="https://www.behance.net/patriciasteinberg" target="_blank"><img src={BehanceHome} alt="Behance logo" /></a>
                 <a href="https://github.com/patriciasteinberg" target="_blank"><img src={GithubHome} alt="Github logo" /></a>
             </div>
-            <a href="/projects" className={styles.aboutBtn}>More of my projects</a>
+            <Link to="/projects" className={styles.aboutBtn}>More of my projects</Link>
         </div>
     )
 }

@@ -1,9 +1,15 @@
 import React from 'react';
 import styles from './Header.module.css';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Logo from '../Assets/home-logo.png';
 
 const Header = () => {
+    const mapStateToProps = (state) => {
+        return {
+            router: state.router,
+        }
+    }
+
     return (
         <header className={styles.header}>
             <nav className={`${styles.nav} container`}>
@@ -14,11 +20,11 @@ const Header = () => {
                 </div>
                 <div className={styles.navlinks}>
                     <ul>
-                        <li><Link to="/about" >About</Link></li>
-                        <li><Link to="/projects">Projects</Link></li>
+                        <li><NavLink to="/about" activeStyle={{fontWeight: "bold", color:"#7f6d63"}}>About</NavLink></li>
+                        <li><NavLink to="/projects" activeStyle={{fontWeight: "bold", color:"#7f6d63"}}>Projects</NavLink></li>
                         <li><a href="https://github.com/patriciasteinberg" target="_blank">Github</a></li>
                         <li><a href="https://www.behance.net/patriciasteinberg" target="_blank">Behance</a></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li><NavLink to="/contact" activeStyle={{fontWeight: "bold", color:"#7f6d63"}}>Contact</NavLink></li>
                     </ul>
                 </div>
             </nav>
