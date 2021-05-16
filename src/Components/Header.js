@@ -14,9 +14,10 @@ const Header = () => {
                 </div>
                 <div className={styles.navlinks}>
                     <ul>
-                        <li><Link to="/about">About</Link></li>
-                        <li><a href="https://github.com/patriciasteinberg">Github</a></li>
-                        <li><a href="https://www.behance.net/patriciasteinberg">Behance</a></li>
+                        <li><Link to="/about" >About</Link></li>
+                        <li><Link to="/projects">Projects</Link></li>
+                        <li><a href="https://github.com/patriciasteinberg" target="_blank">Github</a></li>
+                        <li><a href="https://www.behance.net/patriciasteinberg" target="_blank">Behance</a></li>
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
