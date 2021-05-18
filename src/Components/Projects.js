@@ -1,11 +1,12 @@
 import React from "react";
+import PageTitle from "./PageTitle";
 import Slide from "./Slide";
 import { SliderData } from "./SliderData";
 
 const Projects = () => {
     return (
         <div>
-            <h1>My Projects</h1>
+            <PageTitle>My Projects</PageTitle>
             <Slide slides={SliderData} />
         </div>
     )
