@@ -1,10 +1,9 @@
-import React from 'react';
+import React from "react";
+import PageTitle from "./PageTitle";
 
 const About = () => {
     return (
-        <div>
-            <h1>About</h1>
-        </div>
+        <PageTitle>About me</PageTitle>
     )
 }
 
