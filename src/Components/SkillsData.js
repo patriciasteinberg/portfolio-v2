@@ -17,6 +17,6 @@ export const SkillsData = [
     {
         logo: "https://i.ibb.co/ZBQJVss/about-git-icon.png",
         title: "Version Control - Git",
-        description: "Version Control has been essential for me since the beginning. My Github repository has been open since 2019."
+        description: "Version Control has been essential for me since the beginning. My Github repository has been up and running since 2019."
     },
 ]
