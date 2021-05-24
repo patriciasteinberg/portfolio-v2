@@ -1,9 +1,10 @@
 import './App.css';
 import React from 'react';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
-  Switch
+  Switch,
+  HashRouter
 } from "react-router-dom";
 import Home from './Components/Home';
 import Header from './Components/Header';
@@ -18,14 +19,14 @@ function App() {
   return (
     <Router>
         <Header />
-        <Switch>
-          <Route exact path="/"><Home /></Route>
-          <Route path="/about"><About /></Route>
-          <Route path="/projects"><Projects /></Route>
-          <Route path="/contact" component={Contact} />
-          <Route path="*" component={NotFound} />
-        </Switch>
-        <Footer />
+          <Switch>
+            <Route exact path="/"><Home /></Route>
+            <Route path="/about"><About /></Route>
+            <Route path="/projects"><Projects /></Route>
+            <Route path="/contact" component={Contact} />
+            <Route path="*" component={NotFound} />
+          </Switch>
+          <Footer />
     </Router>
   );
 }
