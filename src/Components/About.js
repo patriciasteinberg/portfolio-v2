@@ -6,7 +6,7 @@ import styles from "./About.module.css";
 
 const About = () => {
     return (
-        <>
+        <section>
             <PageTitle>About me</PageTitle>
             <div className={`${styles.intro} container`}>
                 <p>Highly motivated and committed. My biggest assets are my problem solving skills and the ability to learn new programming languages quickly. 
@@ -17,7 +17,7 @@ const About = () => {
                 <h2 className={styles.sectionTitle}>Main Skills</h2>
                 <Skills />
             </div>
-        </>
+        </section>
     )
 }
 
