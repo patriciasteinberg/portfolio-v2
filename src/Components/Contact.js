@@ -24,8 +24,8 @@ const Contact = () => {
 
             <PageTitle>Contact</PageTitle>
             <form onSubmit={handleSubmit}>
-                <Input label="Name" type="text" name="name"/>
-                <Input label="Phone" type="tel" name="phone"/>
+                <Input label="Name" type="text" name="name" />
+                <Input label="Phone" type="tel" name="phone" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"/>
                 <Input label="Email" type="email" name="_replyto"/>
                 <Message label="Leave your message here:" type="text" name="message"/>
                 <ReCAPTCHA sitekey="6LeuQusaAAAAAOiISiyHnQiTY4hhqnN1kM1ZsIoG" onChange={onChange} />

@@ -22,7 +22,7 @@
   outline: none;
   border-color: #997983;
   background: white;
-  box-shadow: 0 0 0 3px #e59393;
+  box-shadow: 0 0 0 3px #b093e5;
 }
 
 .label {
@@ -30,4 +30,10 @@
   font-size: 1rem;
   line-height: 1;
   padding-bottom: 0.5rem;
+}
+
+.error {
+  color: #f31;
+  font-size: 0.875rem;
+  margin-top: 0.25rem;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Message.module.css";
 
-const Message = ({ label, type, name, value, onChange, onBlur }) => {
+const Message = ({ label, type, name, value, error, onChange, onBlur }) => {
     return (
         <div>
             <label htmlFor={name} className={styles.label}>
