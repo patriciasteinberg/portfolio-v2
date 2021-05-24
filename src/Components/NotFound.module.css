@@ -1,0 +1,16 @@
+.notFound {
+  background: white;
+  padding: 1rem;
+  margin-top: 10rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #333;
+  border-radius: 1.5rem;
+}
+
+.notFound h1 {
+  font-family: var(--type-second);
+  font-size: 3rem;
+}
+
+.notFound p {
+  font-size: 1.5rem;
+}

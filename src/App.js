@@ -11,6 +11,7 @@ import About from './Components/About';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
 import Footer from './Components/Footer';
+import NotFound from './Components/NotFound';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/about"><About /></Route>
           <Route path="/projects"><Projects /></Route>
           <Route path="/contact" component={Contact} />
+          <Route path="*" component={NotFound} />
         </Switch>
         <Footer />
     </Router>
