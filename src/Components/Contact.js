@@ -6,6 +6,7 @@ import PageTitle from './PageTitle';
 import { useForm, ValidationError } from '@formspree/react';
 import styles from "./Contact.module.css";
 import ReCAPTCHA from "react-google-recaptcha";
+import Head from "./Head";
 
 
 const Contact = () => {
@@ -21,7 +22,7 @@ const Contact = () => {
 
     return (
         <section className="container">
-
+            <Head title="Contact" description="This website was made to showcase my projects." />
             <PageTitle>Contact</PageTitle>
             <form onSubmit={handleSubmit}>
                 <Input label="Name" type="text" name="name" />
