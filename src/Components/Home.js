@@ -4,13 +4,14 @@ import LinkedInHome from '../Assets/home-linkedin-btn.png';
 import BehanceHome from '../Assets/home-behance-btn.png';
 import GithubHome from '../Assets/home-github-btn.png';
 import { Link } from 'react-router-dom';
-import Footer from './Footer';
+import Head from "./Head";
 
 
 const Home = () => {
     return (
         <>
             <div className={`${styles.homeContent} container`}>
+                <Head title="Home" description="This website was made to showcase my projects." />
                 <h1 className={styles.title}>Patricia Steinberg</h1>
                 <h2 className={styles.subtitle}>Front-end developer</h2>
                 <div className={styles.extLinks}>
