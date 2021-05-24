@@ -10,6 +10,7 @@ import Header from './Components/Header';
 import About from './Components/About';
 import Contact from './Components/Contact';
 import Projects from './Components/Projects';
+import Footer from './Components/Footer';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
           <Route path="/projects"><Projects /></Route>
           <Route path="/contact" component={Contact} />
         </Switch>
+        <Footer />
     </Router>
   );
 }
