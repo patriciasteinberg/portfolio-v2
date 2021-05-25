@@ -1,5 +1,4 @@
 .success {
-  margin-top: 3rem;
   text-align: center;
   font-size: 2rem;
   background: white;
@@ -12,4 +11,5 @@
 .submit {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 2rem;
 }

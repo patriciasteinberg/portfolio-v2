@@ -17,10 +17,6 @@ const Contact = () => {
         return <p className={styles.success}>Your message has been sent!</p>;
     }
 
-    function onChange(value) {
-        return <Button type="submit">Send</Button>
-    }
-
     return (
         <section className="container">
             <Head title="Contact" description="This website was made to showcase my projects." />
@@ -33,7 +29,7 @@ const Contact = () => {
                 <div className={styles.submit}>
                     <ReCAPTCHA
                         sitekey="6LeuQusaAAAAAOiISiyHnQiTY4hhqnN1kM1ZsIoG"
-                        onChange={useCallback(() => setDisableSubmit(false))}
+                        onChange={() => setDisableSubmit(false)}
                     />
                     <Button type="submit" disabled={disableSubmit}>Send</Button>
                 </div>
