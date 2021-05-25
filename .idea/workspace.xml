@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d1a34f-bc8a-4139-8a15-d120301fb916" name="Default Changelist" comment="Fixing form send btn">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-05-24_5_22_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-05-24_5_22_p_m___Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="46d1a34f-bc8a-4139-8a15-d120301fb916" name="Default Changelist" comment="submit btn">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.module.css" afterDir="false" />
     </list>
@@ -95,6 +93,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Updates" />
     <MESSAGE value="Revert &quot;Updates&quot;&#10;&#10;This reverts commit 3e7661eb" />
-    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Updates&quot;&#10;&#10;This reverts commit 3e7661eb" />
+    <MESSAGE value="submit btn" />
+    <option name="LAST_COMMIT_MESSAGE" value="submit btn" />
   </component>
 </project>
