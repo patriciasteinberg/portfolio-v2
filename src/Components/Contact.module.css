@@ -8,3 +8,8 @@
   box-shadow: 0.5rem 0.5rem 0.5rem #333;
   border-radius: 1.5rem;
 }
+
+.submit {
+  display: flex;
+  justify-content: space-between;
+}

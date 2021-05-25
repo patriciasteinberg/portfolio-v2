@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46d1a34f-bc8a-4139-8a15-d120301fb916" name="Default Changelist" comment="">
+    <list default="true" id="46d1a34f-bc8a-4139-8a15-d120301fb916" name="Default Changelist" comment="Fixing form send btn">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-05-24_5_22_p_m___Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_2021-05-24_5_22_p_m___Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Button.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Button.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Contact.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Contact.module.css" afterDir="false" />
     </list>
+    <list id="da2140b9-81cb-45be-8ad0-419501d97875" name="Revert &quot;Updates&quot;" comment="Revert &quot;Updates&quot;&#10;&#10;This reverts commit 3e7661eb" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,7 +17,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="023" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -54,6 +59,21 @@
       <workItem from="1621901185534" duration="184000" />
       <workItem from="1621903349828" duration="1113000" />
     </task>
+    <task id="LOCAL-00001" summary="Updates">
+      <created>1621906758483</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1621906758483</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Revert &quot;Updates&quot;&#10;&#10;This reverts commit 3e7661eb">
+      <created>1621906960233</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621906960233</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -73,5 +93,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Updates" />
+    <MESSAGE value="Revert &quot;Updates&quot;&#10;&#10;This reverts commit 3e7661eb" />
+    <option name="LAST_COMMIT_MESSAGE" value="Revert &quot;Updates&quot;&#10;&#10;This reverts commit 3e7661eb" />
   </component>
 </project>
