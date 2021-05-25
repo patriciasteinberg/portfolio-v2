@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useCallback , useState } from 'react';
 import Button from './Button';
 import Input from './Input';
 import Message from './Message';
@@ -11,6 +11,7 @@ import Head from "./Head";
 
 const Contact = () => {
     const [state, handleSubmit] = useForm("xknkrwkp");
+    const [disableSubmit,setDisableSubmit] = useState(true);
     
     if (state.succeeded) {
         return <p className={styles.success}>Your message has been sent!</p>;
@@ -18,7 +19,7 @@ const Contact = () => {
 
     function onChange(value) {
         return <Button type="submit">Send</Button>
-      }
+    }
 
     return (
         <section className="container">
@@ -29,7 +30,11 @@ const Contact = () => {
                 <Input label="Phone" type="tel" name="phone" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"/>
                 <Input label="Email" type="email" name="_replyto"/>
                 <Message label="Leave your message here:" type="text" name="message"/>
-                <ReCAPTCHA sitekey="6LeuQusaAAAAAOiISiyHnQiTY4hhqnN1kM1ZsIoG" onChange={onChange} />
+                <ReCAPTCHA
+                    sitekey="6LeuQusaAAAAAOiISiyHnQiTY4hhqnN1kM1ZsIoG"
+                    onChange={useCallback(() => setDisableSubmit(false))}
+                />
+                <Button type="submit" disabled={disableSubmit}>Send</Button>
             </form>
         </section>
     )
