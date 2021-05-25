@@ -14,3 +14,9 @@
   background: #67595e;
   margin: 1rem auto 2rem;
 }
+
+@media (max-width: 40rem) {
+  .title {
+    margin-top: 5rem;
+  }
+}

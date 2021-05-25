@@ -8,8 +8,8 @@
   border-radius: 1.5rem;
 }
 
-.submit {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 2rem;
+.naoAparece {
+  visibility: hidden;
+  position: absolute;
+  height: 0px;
 }
