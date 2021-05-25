@@ -53,3 +53,14 @@ body {
     transform: translateY(0%);
   }
 }
+
+@media (max-width: 40rem) {
+  .title {
+    margin-top: 5rem;
+    font-size: 4rem;
+  }
+
+  .subtitle {
+    font-size: 1.8rem;
+  }
+}

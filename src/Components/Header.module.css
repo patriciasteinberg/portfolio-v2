@@ -41,3 +41,25 @@
 .navlinks ul li:hover {
   box-shadow: inset 400px 0 0 0 rgba(125, 109, 99, 0.7);
 }
+
+@media (max-width: 40rem) {
+  .header {
+    width: 100vh;
+    padding-left: 0;
+    padding-bottom: 1rem;
+  }
+
+  .nav {
+    display: inline-block;
+  }
+
+  .logo {
+    width: 3rem;
+    margin-left: 8.6rem;
+    margin-bottom: .2rem;
+  }
+
+  .navlinks ul li {
+    padding: 0 0.5rem 0rem 0.2rem;
+  }
+}

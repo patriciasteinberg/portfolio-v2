@@ -11,7 +11,6 @@ import Head from "./Head";
 
 const Contact = () => {
     const [state, handleSubmit] = useForm("xknkrwkp");
-    const [disableSubmit,setDisableSubmit] = useState(true);
 
     if (state.succeeded) {
         return <p className={styles.success}>Your message has been sent!</p>;
@@ -26,13 +25,20 @@ const Contact = () => {
                 <Input label="Phone" type="tel" name="phone" pattern="^(\+\d{1,2}\s)?\(?\d{3}\)?[\s.-]?\d{3}[\s.-]?\d{4}$"/>
                 <Input label="Email" type="email" name="_replyto"/>
                 <Message label="Leave your message here:" type="text" name="message"/>
-                <div className={styles.submit}>
-                    <ReCAPTCHA
-                        sitekey="6LeuQusaAAAAAOiISiyHnQiTY4hhqnN1kM1ZsIoG"
-                        onChange={() => setDisableSubmit(false)}
-                    />
-                    <Button type="submit" disabled={disableSubmit}>Send</Button>
-                </div>
+                <label className={styles.naoAparece}
+                >Se você não é um robô, deixe em branco.</label
+                >
+                <input type="text" className={styles.naoAparece} name="leaveblank"/>
+                <label className={styles.naoAparece}
+                >Se você não é um robô, não mude este campo.</label
+                >
+                <input
+                    type="text"
+                    className={styles.naoAparece}
+                    name="dontchange"
+                    value="http://"
+                />
+                <Button type="submit">Send</Button>
             </form>
         </section>
     )

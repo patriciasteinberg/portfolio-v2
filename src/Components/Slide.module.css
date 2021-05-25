@@ -52,3 +52,25 @@
   transition-duration: 1s;
   transform: scale(1.08);
 }
+
+@media (max-width: 40rem) {
+
+  .slider {
+    height: 40vh;
+  }
+
+  .image {
+    width: 13rem;
+    height: 13rem;
+  }
+
+  .leftArrow {
+    top: 40%;
+    left: 10px;
+  }
+
+  .rightArrow {
+    top: 40%;
+    right: 10px;
+  }
+}
